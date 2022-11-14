@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="630d4c1c-09cf-4f13-8fac-e37ce6dff918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/asyncio_use_case.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/normal_use_case.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallel_processing/multiprocessing_use_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python_exercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/comprehension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/asyncio_use_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/asyncio_use_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/normal_use_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/normal_use_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallel_processing/multiprocessing_use_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/parallel_processing/multiprocessing_use_case.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,7 @@
     "project.structure.side.proportion": "0.26712328"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.multiprocessing_use_case">
+  <component name="RunManager" selected="Python.comprehension">
     <configuration name="asyncio_use_case (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multiprocessing_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="comprehension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parallel_processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parallel_processing/multiprocessing_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/comprehension.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.comprehension" />
         <item itemvalue="Python.multiprocessing_use_case" />
         <item itemvalue="Python.asyncio_use_case (1)" />
         <item itemvalue="Python.normal_use_case" />
         <item itemvalue="Python.multiprocessing_2" />
-        <item itemvalue="Python.multiprocessing_1" />
       </list>
     </recent_temporary>
   </component>

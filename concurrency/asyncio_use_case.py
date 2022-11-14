@@ -21,7 +21,15 @@ async def sum_numbers(task_name: str, numbers: [int]):
     print(f'Task name: {task_name}: sum = {total}\n')
 
 
+async def cpu_high(task_name: str, count: int):
+    print(f'entering task: {task_name}...')
+    for x in range(count):
+        x*x
+    print(f'finish task: {task_name}')
+
+
 def process():
+    # Asyncio is affected by GIL and in some cases is worse than a single thread
     global start_at
     start_at = time.time()
 
@@ -30,14 +38,14 @@ def process():
     asyncio.set_event_loop(loop)
 
     tasks = [
-        loop.create_task(sum_numbers("A", [1,2,3])),
-        loop.create_task(sum_numbers("B", [2,4,6,8,10])),
-        loop.create_task(sum_numbers("C", [2,4,6,10])),
-        loop.create_task(sum_numbers("D", [2,4,1,8,10])),
-        loop.create_task(sum_numbers("E", [2,4,0,8,10])),
-        loop.create_task(sum_numbers("F", [2,4,6])),
-        loop.create_task(sum_numbers("G", [2,4,8,10])),
-        loop.create_task(sum_numbers("H", [6,8,10])),
+        loop.create_task(cpu_high("A", 123456789)),
+        loop.create_task(cpu_high("B", 12345)),
+        loop.create_task(cpu_high("C", 34547890)),
+        loop.create_task(cpu_high("D", 100000000)),
+        loop.create_task(cpu_high("E", 23234)),
+        loop.create_task(cpu_high("F", 123)),
+        loop.create_task(cpu_high("G", 897874)),
+        loop.create_task(cpu_high("H", 9872343)),
     ]
 
     loop.run_until_complete(asyncio.wait(tasks))

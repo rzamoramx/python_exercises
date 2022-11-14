@@ -19,19 +19,28 @@ def sum_numbers(task_name: str, numbers: [int]):
     print(f'Task name: {task_name}: sum = {total}\n')
 
 
+def cpu_high(task_name: str, count: int):
+    print(f'entering task: {task_name}...')
+    for x in range(count):
+        x*x
+    print(f'finish task: {task_name}')
+
+
 def process():
     global start_at
     start_at = time.time()
+
     tasks = [
-        sum_numbers("A", [1,2,3]),
-        sum_numbers("B", [2,4,6,8,10]),
-        sum_numbers("C", [2,4,6,10]),
-        sum_numbers("D", [2,4,1,8,10]),
-        sum_numbers("E", [2,4,0,8,10]),
-        sum_numbers("F", [2,4,6]),
-        sum_numbers("G", [2,4,8,10]),
-        sum_numbers("H", [6,8,10]),
+        cpu_high("A", 123456789),
+        cpu_high("B", 12345),
+        cpu_high("C", 34547890),
+        cpu_high("D", 100000000),
+        cpu_high("E", 23234),
+        cpu_high("F", 123),
+        cpu_high("G", 897874),
+        cpu_high("H", 9872343),
     ]
+
     end = time.time()
     print(f'Time: {end-start_at:.2f} sec')
 
