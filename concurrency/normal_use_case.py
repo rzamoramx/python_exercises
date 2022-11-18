@@ -31,14 +31,14 @@ def process():
     start_at = time.time()
 
     tasks = [
-        cpu_high("A", 123456789),
-        cpu_high("B", 12345),
-        cpu_high("C", 34547890),
-        cpu_high("D", 100000000),
-        cpu_high("E", 23234),
-        cpu_high("F", 123),
-        cpu_high("G", 897874),
-        cpu_high("H", 9872343),
+        cpu_high("A", 123456789000),
+        cpu_high("B", 12345000),
+        cpu_high("C", 34547890000),
+        cpu_high("D", 100000000000),
+        cpu_high("E", 23234000),
+        cpu_high("F", 123000),
+        cpu_high("G", 897874000),
+        cpu_high("H", 9872343000),
     ]
 
     end = time.time()
