@@ -1,4 +1,10 @@
 
+"""
+a yield create generator, basically is a function that produces a sequence of
+results, maintaining its local state and is capable to resume again exactly
+where it left off
+"""
+
 
 # A simple generator function
 def my_gen():

@@ -15,6 +15,10 @@ def closure(x):
 
 
 def simple_decorator(func):
+    """
+    the wraps decorator is for preserving info (like __name__, __doc__)
+     of the function caller
+    """
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
         print('call', args, kwargs)

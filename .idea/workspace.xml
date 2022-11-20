@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="630d4c1c-09cf-4f13-8fac-e37ce6dff918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/advanced_topics/closures_and_decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/decorators2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/decorators3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/generators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/keyword_args.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/context_managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/context_managers_custom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/decorators4_class_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/encapsulation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/normal_use_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/normal_use_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parallel_processing/multiprocessing_use_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/parallel_processing/multiprocessing_use_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/closures_and_decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/closures_and_decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/decorators2.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/decorators2_c_style_accessors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/decorators3.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/decorators3_retries_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/generators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +41,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.google.cloudcode.ide_session_index": "20221118_0002",
+    "com.google.cloudcode.ide_session_index": "20221120_0001",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.26712328",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.generators">
-    <configuration name="closures_and_decorators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.encapsulation">
+    <configuration name="context_managers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,7 +61,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/closures_and_decorators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/context_managers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decorators2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="context_managers_custom" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +82,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\rordr\python_projects\python_exercises\advanced_topics\decorators2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/context_managers_custom.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decorators3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="decorators3_retries_case (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +103,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/decorators3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/decorators3_retries_case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="decorators3_retries_case" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,7 +124,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/generators.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\rordr\python_projects\python_exercises\advanced_topics\decorators3_retries_case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="keyword_args" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="encapsulation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,7 +145,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/keyword_args.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/encapsulation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.generators" />
-        <item itemvalue="Python.closures_and_decorators" />
-        <item itemvalue="Python.decorators3" />
-        <item itemvalue="Python.decorators2" />
-        <item itemvalue="Python.keyword_args" />
+        <item itemvalue="Python.encapsulation" />
+        <item itemvalue="Python.context_managers_custom" />
+        <item itemvalue="Python.context_managers" />
+        <item itemvalue="Python.decorators3_retries_case (1)" />
+        <item itemvalue="Python.decorators3_retries_case" />
       </list>
     </recent_temporary>
   </component>

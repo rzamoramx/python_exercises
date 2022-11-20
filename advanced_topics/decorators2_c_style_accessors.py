@@ -1,6 +1,10 @@
 
 
 class Temperatures:
+    """
+    A use case of decorators applied to a class to get a  classes properties' accessors
+     like C style
+     """
     def __init__(self, t):
         self._temp = t
 
