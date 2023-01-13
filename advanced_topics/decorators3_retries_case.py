@@ -2,6 +2,8 @@
 import time
 from functools import wraps
 
+counter = 1
+
 
 def retry(arg):
     """
@@ -10,11 +12,14 @@ def retry(arg):
     def retry_decorator(func):
         @wraps(func)
         def _wrapper(*args, **kwargs):
-            for _ in range(max_retries):
+            for i in range(max_retries):
                 try:
                     func(*args, **kwargs)
-                except Exception:
+                    break
+                except Exception as ex:
                     time.sleep(1)
+                    if i == (max_retries - 1):
+                        raise ex
         return _wrapper
     if callable(arg):
         max_retries = 2
@@ -26,8 +31,13 @@ def retry(arg):
 
 @retry(4)
 def might_fail_with_max_four_tries():
-    print("might fail and retries max 4 times")
-    raise Exception
+    global counter
+    print("do some thing")
+    if counter < 3:
+        counter += 1
+        print('but... it fail')
+        raise Exception
+    print('all going ok :)')
 
 
 @retry
@@ -37,6 +47,10 @@ def might_fail_with_default_max_retries():
 
 
 if __name__ == '__main__':
-    might_fail_with_max_four_tries()
+    try:
+        might_fail_with_max_four_tries()
+    except Exception as e:
+        print('retires exceeded')
+
     might_fail_with_default_max_retries()
 
