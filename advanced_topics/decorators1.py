@@ -2,18 +2,6 @@
 import functools
 
 
-def local_func():
-    def inner():
-        print('inner')
-    return inner
-
-
-def closure(x):
-    def inner(y):
-        return x+y
-    return inner
-
-
 def simple_decorator(func):
     """
     the wraps decorator is for preserving info (like __name__, __doc__)
@@ -51,14 +39,6 @@ def return_greeting(name):
 
 
 if __name__ == '__main__':
-    lf = local_func()
-    lf()
-    print("-"*30)
-
-    add_numbers = closure(1)
-    print(add_numbers(4))
-    print("-"*30)
-
     print(use_simple_decorator(2))
     print("-"*30)
 
