@@ -29,6 +29,13 @@ def pow_two(max = 0):
     return n
 
 
+def generator_in_line():
+    pairs = (x for x in range(10) if x % 2 == 0)
+    print(type(pairs))
+    for pair in pairs:
+        print(pair)
+
+
 if __name__ == '__main__':
     # Using for loop
     for item in my_gen():
@@ -36,3 +43,5 @@ if __name__ == '__main__':
 
     for x in pow_two(4):
         print(f'x: {x}')
+
+    generator_in_line()

@@ -8,7 +8,10 @@ def local_func():
 
 
 def closure(x):
+    print(f'closure: {x}')
+    
     def inner(y):
+        print(f'x, y: {x}, {y}')
         return x+y
     return inner
 
