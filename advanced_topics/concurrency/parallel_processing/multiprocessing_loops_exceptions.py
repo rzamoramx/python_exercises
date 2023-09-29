@@ -1,6 +1,5 @@
 
 import multiprocessing as mp
-import sys
 import time
 import random
 import traceback
