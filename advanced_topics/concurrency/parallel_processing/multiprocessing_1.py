@@ -1,66 +1,77 @@
 
 import multiprocessing as mp
+import queue
 import numpy as np
 
-results = []
+"""
+multiprocessing is a package that supports spawning processes using an API similar to the threading module.
+this is the way to by pass the GIL (Global Interpreter Lock) limitation in python.
+there are two main ways to use the multiprocessing module:
+- using a pool of workers
+- using a queue of tasks
+"""
+
+# Worker function to do some work
+def do_work(task):
+    print(f"Processing {task}")
+    return task.upper()
 
 
-def prepare_data() -> list:
-    np.random.RandomState(100)
-    arr = np.random.randint(0, 10, size=[200000, 5])
-    data = arr.tolist()
-    return data[:5]
+# Worker function to process tasks from the queue
+def worker_function(queue):
+    while True:
+        try:
+            task = queue.get(timeout=1)  # Get a task from the queue with a timeout
+            # Process the task here
+            result = do_work(task)
+            queue.task_done()
+        except queue.Empty:
+            break
 
 
-def how_many_within_range(i, row, minimum, maximum):
-    count = 0
-    for n in row:
-        if minimum <= n <= maximum:
-            count = count + 1
-    return i, count
+"""
+multiprocessing example using queue of tasks
+"""
 
+def mp_queue_of_tasks():
+    # Create a queue to hold tasks
+    task_queue = queue()
 
-def collect_result(result):
-    global results
-    results.append(result)
+    # Add tasks to the queue
+    task_queue.put("foo")
+    task_queue.put("bar")
+    task_queue.put("dummy")
 
+    num_workers = 5
+    processes = []
+    for _ in range(num_workers):
+        process = mp.Process(target=worker_function, args=(task_queue,))
+        processes.append(process)
+        process.start()
 
-def square(x):
-    return x**2
+    # Wait for all worker processes to finish
+    for process in processes:
+        process.join()
 
+"""
+end of multiprocessing example using queue of tasks
+"""
 
-def test_mp_pool_async_apply():
-    pool = mp.Pool(mp.cpu_count())
-    data = prepare_data()
-    for i, row in enumerate(data):
-        pool.apply_async(how_many_within_range, args=(i, row, 4, 8), callback=collect_result)
+"""
+multiprocessin example using pool of workers
+"""
 
-    # Step 4: Close Pool and let all the processes complete
-    pool.close()
-    pool.join()  # postpones the execution of next line of code until all processes in the queue are done.
+def mp_pool_of_workers():
+    tasks = ["foo", "bar", "dummy"]
+    with mp.Pool(processes=mp.cpu_count()) as pool:
+        results = pool.map(do_work, tasks)
+    print(results)
 
-    # Step 5: Sort results [OPTIONAL]
-    #results.sort(key=lambda x: x[0])
-    results_final = [r for i, r in results]
-
-    print(results_final[:10])
-
-
-def test_mp_pool_square():
-    # Create a pool of processes
-    with mp.Pool(processes=5) as pool:
-        # Apply the function to the data using parallel processing
-        result = pool.map(square, [1, 2, 3, 4, 5])
-
-    # Combine the results
-    print(result)
-
-
-def check_num_cpus():
-    cnt = mp.cpu_count()
-    print(f"Num of CPUs: {cnt}")
+"""
+end of multiprocessing example using pool of workers
+"""
 
 
 if __name__ == "__main__":
-    check_num_cpus()
-    test_mp_pool_async_apply()
+    mp_queue_of_tasks()
+    mp_pool_of_workers()

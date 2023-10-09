@@ -4,7 +4,7 @@ from design_patterns.builder_complex_object.GamingComputerBuilder import GamingC
 from design_patterns.builder_complex_object.ComputerDirector import ComputerDirector
 
 
-class TestBuilderComplexObject(unittest.TestCase):
+class BuilderComplexObject_test(unittest.TestCase):
     """
     The Builder Pattern is a creational design pattern that lets you construct complex objects step by step. The
     pattern allows you to produce different types and representations of an object using the same construction code.

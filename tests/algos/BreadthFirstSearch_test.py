@@ -1,9 +1,10 @@
 
 from collections import defaultdict
 from algos.BreadthFirstSearch import BreadthFirstSearch
+import unittest
 
 
-class TestBreadthFirstSearch:
+class BreadthFirstSearch_test(unittest.TestCase):
     def test_breadth_first_search(self):
         graph = defaultdict(list)
         graph['A'] = ['B', 'C', 'D']

@@ -4,7 +4,7 @@ from design_patterns.observer.ConcreteSubject import ConcreteSubject
 from design_patterns.observer.ConcreteObserver import ConcreteObserver
 
 
-class TestObserver(unittest.TestCase):
+class Observer_test(unittest.TestCase):
     """
     The Observer Pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that
     when one object changes state, all its dependents (observers) are notified and updated automatically. This pattern

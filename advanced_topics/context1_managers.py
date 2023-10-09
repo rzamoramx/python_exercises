@@ -1,4 +1,7 @@
-
+"""
+context managers are used to manage resources, such as files, database connections, etc.
+they ensure that resources are properly acquired and released, even when exceptions occurs.
+"""
 
 def equivalent_approach():
     file = open('hello_world.txt', 'w')
