@@ -129,6 +129,10 @@ dmypy.json
 .pyre/
 
 *.iml
+python_exercises.iml
 
 # Exclude all .idea folder
 .idea/**/*
+
+# Exclude vscode folder
+.vscode/**/*
