@@ -1,7 +1,6 @@
 
 import multiprocessing as mp
 import queue
-import numpy as np
 
 """
 multiprocessing is a package that supports spawning processes using an API similar to the threading module.
@@ -10,6 +9,7 @@ there are two main ways to use the multiprocessing module:
 - using a pool of workers
 - using a queue of tasks
 """
+
 
 # Worker function to do some work
 def do_work(task):

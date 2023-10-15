@@ -12,16 +12,20 @@ key points:
 - often used for validation, enforce coding standards, logging, registering classes, etc.
 """
 
+
 class MyMeta(type):
     def __init__(cls, name, bases, attrs):
         if "my_attr" not in attrs:
             raise TypeError("bad user class")
         super().__init__(name, bases, attrs)
 
+
 class MyClass(metaclass=MyMeta):
-    other_atter = 1
+    other_attr = 1
+
     def my_method(self):
         return self.my_attr
-    
+
+
 obj = MyClass()
 print(obj.my_method())
