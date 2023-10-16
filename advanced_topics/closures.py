@@ -1,5 +1,5 @@
 # A closure is a function object that remembers values in enclosing scopes even
-# if they are not present in memory. 
+# if they are not present in memory. An inner function has access to variables in the outer
 
 def local_func():
     def inner():

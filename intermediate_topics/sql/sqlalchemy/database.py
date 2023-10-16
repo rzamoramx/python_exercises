@@ -3,13 +3,26 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from intermediate_topics.sql.sqlalchemy.models.base import Base
 
-engine = create_engine('sqlite:///:memory:')  # ('sqlite:///:memory:')  ('sqlite:///symbols.db')
-session = sessionmaker(bind=engine)()
+url_default = 'sqlite:///:memory:'  # ('sqlite:///:memory:')  ('sqlite:///symbols.db')
+session = None
+engine = None
 
 
-def create_db():
+def create_db(url=None):
+    global engine
+
+    if url:
+        engine = create_engine(url)
+    else:
+        engine = create_engine(url_default)
     Base.metadata.create_all(engine)
 
 
 def get_session():
+    global session
+
+    if session:
+        return session
+
+    session = sessionmaker(bind=engine)()
     return session
