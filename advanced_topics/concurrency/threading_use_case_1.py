@@ -3,6 +3,14 @@ import threading
 import time
 import random
 
+"""
+Threading is the other way to handle concurrency in python, it's suitable for CPU bound tasks (such as image processing,
+ number crunching, and scientific computing) although if these tasks are very CPU intensive, you will not see much 
+ improvement, because of the GIL (Global Interpreter Lock) that python has, this means that only one thread can run 
+ at a time (access to the interpreter), so if you have tasks will require a lot of CPU maybe you should consider using 
+ multiprocessing instead of threading.
+"""
+
 
 def worker(number):
     sleep = random.randrange(1, 20)
