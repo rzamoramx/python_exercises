@@ -43,24 +43,24 @@ class Eagle(FlyingBird):
         return f'{self.name} can make sound of an eagle'
 
 
-def test(bird1: Eagle):
-    # bird1 is hinting that it is an Eagle, but it can be a Bird or a FlyingBird, because they are subclasses of Eagle
-    # so with Liskov Substitution Principle we can use the subclasses of a class without changing the behavior
-    # this is specially noticeable in strongly typed languages like Java or C#
+def test(bird1: Bird):
+    """
+    Subtypes must be substitutable for their base types without altering the correctness of the program.
+    In other words, if you have a base class and a derived class, instances of the derived class should be able to
+    replace instances of the base class without causing errors or unexpected behavior. Violating this principle can
+    lead to incorrect behavior and make your code difficult to reason about.
+    """
     print(bird1.eat())
 
 
 if __name__ == '__main__':
-    bird = Bird('Bird')
-    test(bird)
-
     penguin = Penguin('Penguin')
     print(penguin.eat())
     print(penguin.make_sound())
-    # print(penguin.fly())
 
     eagle = Eagle('Eagle')
     print(eagle.eat())
     print(eagle.make_sound())
     print(eagle.fly())
+    test(eagle)
 

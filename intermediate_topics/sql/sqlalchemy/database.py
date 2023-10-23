@@ -24,5 +24,4 @@ def get_session():
     if session:
         return session
 
-    session = sessionmaker(bind=engine)
-    return session()
+    return sessionmaker(bind=engine)()
