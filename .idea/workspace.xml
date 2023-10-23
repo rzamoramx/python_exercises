@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="630d4c1c-09cf-4f13-8fac-e37ce6dff918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/advanced_topics/lambdas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/intermediate_topics/sql/sqlalchemy/PostRepositoryTest_postgresql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/repositories/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/repositories/user_repo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/routes/v1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/routes/v1/blog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/routes/v1/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_topics/closures.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/closures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi_examples/handlers/blog_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi_examples/handlers/blog_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intermediate_topics/solid/liskov_substitution.py" beforeDir="false" afterPath="$PROJECT_DIR$/intermediate_topics/solid/liskov_substitution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intermediate_topics/sql/sqlalchemy/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/intermediate_topics/sql/sqlalchemy/database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -39,32 +48,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ACTIVE_CLOUD_PROJECT_ACCOUNT&quot;: &quot;rodrigo.zamora@cargamos.com&quot;,
-    &quot;ACTIVE_CLOUD_PROJECT_ID&quot;: &quot;cargamos-dev-1&quot;,
-    &quot;ACTIVE_CLOUD_PROJECT_NAME&quot;: &quot;Cargamos DEV&quot;,
-    &quot;ACTIVE_CLOUD_PROJECT_NUMBER&quot;: &quot;72526559725&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20221125_0005&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ivanzamora/python_projects/python_exercises&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.26712328&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ACTIVE_CLOUD_PROJECT_ACCOUNT": "rodrigo.zamora@cargamos.com",
+    "ACTIVE_CLOUD_PROJECT_ID": "cargamos-dev-1",
+    "ACTIVE_CLOUD_PROJECT_NAME": "Cargamos DEV",
+    "ACTIVE_CLOUD_PROJECT_NUMBER": "72526559725",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.google.cloudcode.ide_session_index": "20221125_0005",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "/home/ivanzamora/python_projects/python_exercises",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.26712328",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/advanced_topics/flask_examples" />
+      <recent name="$PROJECT_DIR$/advanced_topics/flask_examples/static/templates" />
+      <recent name="$PROJECT_DIR$/fastapi_examples/security" />
       <recent name="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing" />
       <recent name="$PROJECT_DIR$/intermediate_topics/sql/sqlalchemy/repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lambdas">
-    <configuration name="by_pipe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="clients" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing/sync_comm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/graphql1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing/sync_comm/by_pipe.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/graphql1/clients.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="by_queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="liskov_substitution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing/sync_comm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intermediate_topics/solid" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing/sync_comm/by_queue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intermediate_topics/solid/liskov_substitution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lambdas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/flask_examples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/lambdas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/flask_examples/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,41 +140,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for PostRepositoryTest_postgresql.PostRepositoryTest.test_save" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/intermediate_topics/sql/sqlalchemy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fastapi_examples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PostRepositoryTest_postgresql.PostRepositoryTest.test_save&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fastapi_examples/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for UserRepositoryTest.UserRepositoryTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="schema" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/intermediate_topics/sql/sqlalchemy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/graphql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;UserRepositoryTest.UserRepositoryTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/graphql/schema.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lambdas" />
-        <item itemvalue="Python tests.Python tests for PostRepositoryTest_postgresql.PostRepositoryTest.test_save" />
-        <item itemvalue="Python.by_pipe" />
-        <item itemvalue="Python.by_queue" />
-        <item itemvalue="Python tests.Python tests for UserRepositoryTest.UserRepositoryTest" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.liskov_substitution" />
+        <item itemvalue="Python.clients" />
+        <item itemvalue="Python.schema" />
       </list>
     </recent_temporary>
   </component>
