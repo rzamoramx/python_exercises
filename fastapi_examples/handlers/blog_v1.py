@@ -9,7 +9,7 @@ from fastapi_examples.models.PostRequest import PostRequest
 from fastapi_examples.models.UserRequest import UserRequest
 from intermediate_topics.sql.sqlalchemy.models.Post import Post
 from intermediate_topics.sql.sqlalchemy.models.User import User
-from fastapi_examples.security.session_manager import session_cookie, SessionData, session_manager
+from fastapi_examples.security.session_manager import session_cookie, SessionData, session_manager, session_verifier
 
 
 router = APIRouter()
@@ -33,7 +33,7 @@ async def create_user(user_req: UserRequest):
 
 @router.post("/post")
 async def create_post(post_request: PostRequest, session_id: UUID = Depends(session_cookie)):
-    session = session_manager.get(session_id)
+    session = await session_manager.read(session_id)
 
     LOG.info("create_post", user_name=post_request.user_name)
     LOG.info("session_data.username", session_data_username=session.username)
@@ -50,6 +50,7 @@ async def create_post(post_request: PostRequest, session_id: UUID = Depends(sess
     post = Post()
     post.title = post_request.title
     post.content = post_request.content
+    post.author_id = user.id
     post_repo.save(post)
 
     return PostResponse(
