@@ -1,0 +1,13 @@
+version: '3'
+services:
+  app1:
+    build:
+      context: ./consumer_oauth2
+    ports:
+      - "8080:8080"
+
+  app2:
+    build:
+      context: ./server_oauth2
+    ports:
+      - "8081:8081"

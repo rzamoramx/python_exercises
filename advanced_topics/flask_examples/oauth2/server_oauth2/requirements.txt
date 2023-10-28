@@ -1,0 +1,5 @@
+flask==2.3.3
+Werkzeug==2.3.7
+PyJwt==2.8.0
+Flask-Login==0.6.2
+requests==2.31.0
