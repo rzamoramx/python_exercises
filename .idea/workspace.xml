@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="630d4c1c-09cf-4f13-8fac-e37ce6dff918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/blog_app/routes/v1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/consumer_oauth2/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/consumer_oauth2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/consumer_oauth2/consumer_oauth2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/consumer_oauth2/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/consumer_oauth2/templates/request_auth_url.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/server_oauth2/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/server_oauth2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/server_oauth2/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/server_oauth2/server_oauth2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/server_oauth2/templates/authorize.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/server_oauth2/templates/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/server_oauth2/templates/login_for_oauth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_topics/flask_examples/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/blog_app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_topics/flask_examples/repositories/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/blog_app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_topics/flask_examples/repositories/user_repo.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/blog_app/repositories/user_repo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_topics/flask_examples/routes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/blog_app/repositories/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_topics/flask_examples/routes/v1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/blog_app/routes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_topics/flask_examples/routes/v1/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/blog_app/routes/v1/blog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_topics/flask_examples/routes/v1/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/blog_app/routes/v1/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_topics/flask_examples/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/blog_app/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +54,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.26712328",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -180,7 +159,9 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="oauth2: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
