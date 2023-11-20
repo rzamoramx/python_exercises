@@ -4,10 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="630d4c1c-09cf-4f13-8fac-e37ce6dff918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="e2d62bb7-fd3e-4e83-af96-a3138a643be1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/design_patterns/decorator/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/singleton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/concurrency/concurrent.features.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/concurrency/concurrent.features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing/multiprocessing_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing/multiprocessing_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/concurrency/thread_safety.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/concurrency/thread_safety.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/decorators1.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/decorator/decorators1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/decorators2_property.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/decorator/decorators2_property.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/decorators3_retries_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/decorator/decorators3_retries_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/decorators4_classmethod_staticmethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/decorator/decorators4_classmethod_staticmethod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/decorators5_class_decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/decorator/decorators5_class_decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_topics/meta_programming/metaclasses.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_topics/meta_programming/metaclasses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python_exercises.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,64 +50,48 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2HSuuKIARlO8mNr7LvMUUzN5PVV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2YMwVc6XEjA35ypHwr5rbuTNFHG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ACTIVE_CLOUD_PROJECT_ACCOUNT": "rodrigo.zamora@cargamos.com",
-    "ACTIVE_CLOUD_PROJECT_ID": "cargamos-dev-1",
-    "ACTIVE_CLOUD_PROJECT_NAME": "Cargamos DEV",
-    "ACTIVE_CLOUD_PROJECT_NUMBER": "72526559725",
-    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.google.cloudcode.ide_session_index": "20221125_0005",
     "git-widget-placeholder": "develop",
-    "last_opened_file_path": "/home/ivanzamora/python_projects/python_exercises/advanced_topics/flask_examples/oauth2/consumer_oauth2",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.26712328",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/consumer_oauth2" />
-      <recent name="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/server_oauth2" />
-      <recent name="$PROJECT_DIR$/advanced_topics/flask_examples/client_oauth" />
-      <recent name="$PROJECT_DIR$/advanced_topics/flask_examples/server_oauth2" />
-      <recent name="$PROJECT_DIR$/advanced_topics/flask_examples/templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/server_oauth2" />
-      <recent name="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2" />
-      <recent name="$PROJECT_DIR$/advanced_topics/flask_examples/blog_app" />
-      <recent name="$PROJECT_DIR$/advanced_topics/flask_examples/client_oauth" />
-      <recent name="$PROJECT_DIR$/advanced_topics/flask_examples/server_oauth2" />
+      <recent name="C:\Users\Rodrigo\python_projects\python_exercises\design_patterns\decorator" />
+      <recent name="C:\Users\Rodrigo\python_projects\python_exercises\design_patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.consumer_oauth2">
-    <configuration name="consumer_oauth2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.factory">
+    <configuration name="factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/consumer_oauth2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/design_patterns" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/consumer_oauth2/consumer_oauth2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/design_patterns/factory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="oauth2_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="multiprocessing_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/flask_examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/flask_examples/client_oauth/oauth2_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing/multiprocessing_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="oauth2_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="multiprocessing_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/flask_examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/flask_examples/server_oauth2/oauth2_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing/multiprocessing_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server_oauth2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="multiprocessing_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/server_oauth2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/flask_examples/oauth2/server_oauth2/server_oauth2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing/multiprocessing_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,38 +175,45 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="oauth2: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="advanced_topics/flask_examples/oauth2/docker-compose.yml" />
-        </settings>
-      </deployment>
+    <configuration name="multiprocessing_use_case" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_topics/concurrency/parallel_processing/multiprocessing_use_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.server_oauth2" />
-        <item itemvalue="Python.consumer_oauth2" />
-        <item itemvalue="Docker.oauth2: Compose Deployment" />
-        <item itemvalue="Python.oauth2_client" />
-        <item itemvalue="Python.oauth2_server" />
+        <item itemvalue="Python.factory" />
+        <item itemvalue="Python.multiprocessing_1" />
+        <item itemvalue="Python.multiprocessing_2" />
+        <item itemvalue="Python.multiprocessing_use_case" />
+        <item itemvalue="Python.multiprocessing_3" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="630d4c1c-09cf-4f13-8fac-e37ce6dff918" name="Changes" comment="" />
-      <created>1668291028086</created>
+      <changelist id="e2d62bb7-fd3e-4e83-af96-a3138a643be1" name="Changes" comment="" />
+      <created>1700348782556</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668291028086</updated>
+      <updated>1700348782556</updated>
     </task>
     <servers />
   </component>
@@ -198,7 +222,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
