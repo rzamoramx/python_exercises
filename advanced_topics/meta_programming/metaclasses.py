@@ -22,6 +22,7 @@ class MyMeta(type):
 
 class MyClass(metaclass=MyMeta):
     other_attr = 1
+    # my_attr = 2
 
     def my_method(self):
         return self.my_attr
