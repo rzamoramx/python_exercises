@@ -133,6 +133,11 @@ python_exercises.iml
 
 # Exclude all .idea folder
 .idea/**/*
+.idea
 
 # Exclude vscode folder
 .vscode/**/*
+.vscode
+
+python_exercises.code-workspace
+python_exercises.iml
