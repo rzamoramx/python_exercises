@@ -133,6 +133,8 @@ python_exercises.iml
 
 # Exclude all .idea folder
 .idea/**/*
+.idea
 
 # Exclude vscode folder
 .vscode/**/*
+.vscode
