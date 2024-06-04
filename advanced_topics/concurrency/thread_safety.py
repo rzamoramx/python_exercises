@@ -18,12 +18,14 @@ lq = queue.LifoQueue()
 
 # ++++++++++++++++++++++++++++++++++++++ Queue ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 def producer(q):
+    print("entering to producer")
     for i in range(5):
         q.put(i)
         print(f"Produced: {i}")
 
 
 def consumer(q):
+    print("entering to consumer")
     while True:
         item = q.get()
         if item is None:
@@ -39,8 +41,10 @@ def queue_thread_safety():
     producer_thread.start()
     consumer_thread.start()
 
+    print("producing...")
     producer_thread.join()
     q.put(None)  # Signal the consumer to exit
+    print("consuming...")
     consumer_thread.join()
 
 
