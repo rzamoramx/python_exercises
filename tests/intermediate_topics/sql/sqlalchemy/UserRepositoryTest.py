@@ -10,6 +10,11 @@ class UserRepositoryTest(unittest.TestCase):
     def setUp(self):
         create_db()
 
+    # Is necessary to use this patch decorator in order to use the UserRepository, this is because the User models
+    # defines a relationship with the Post model, throwing this error:
+    # sqlalchemy.exc.InvalidRequestError: When initializing mapper Mapper|User|user, expression 'Post' failed to locate
+    # a name ("name 'Post' is not defined"). If this is a class name, consider adding this relationship() to the... bla bla bla
+    # This is because the Post model is not defined in the UserRepositoryTest class, so we need to mock it.
     @patch('intermediate_topics.sql.sqlalchemy.repositories.PostRepository.PostRepository')
     def test_save(self, _):
         user = User(username='user1', email='user1@email.com', password='password1')
