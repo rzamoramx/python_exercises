@@ -12,5 +12,5 @@ From beginner to advanced topics.
 
 - Run poetry install to install dependencies.
   ```bash
-    poetry install
+    poetry install --no-root
     ```
